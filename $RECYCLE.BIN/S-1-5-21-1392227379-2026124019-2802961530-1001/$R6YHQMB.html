@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+<body style="margin: 0; padding: 0; height: 100vh; display: flex; justify-content: center; align-items: center; font-family: Arial; background-color: #f2f2f2;">
+
+  <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 300px;">
+
+    <h2 style="text-align: center;">Login</h2>
+
+    <form action="/login" method="post">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" required style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px;"><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 20px;"><br>
+        <p style="text-align: center; margin-top: 10px; font-size: 14px;">
+        Don't have an account? <a href="/register" style="color: #634caf; text-decoration: none;">Register here</a>
+        </p>
+        <p style="text-align: center; font-size: 14px;">
+            Forgot your password? <a href="/forgot-password" style="color: #634caf; text-decoration: none;">Click here</a>
+      <input type="submit" value="Login" style="width: 100%; padding: 10px; background-color: #634caf; color: white; border: none; cursor: pointer;">
+    </form>
+
+  </div>
+
+</body>
+</html>
